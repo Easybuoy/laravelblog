@@ -13,7 +13,7 @@
     </head>
     <body>
     <!-- <button class="btn btn-info"> hey </button> -->
-
+    @include('inc.navbar')
     <div class="container">
        @yield('content')
        </div>
